@@ -5,8 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     name: Invoke Pixela increment webhook
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
       - name: Invoke webhook
         uses: ryosms/pixela-webhook-action@v1.0.0
         id: increment-pixela
