@@ -8,7 +8,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Invoke webhook
-        uses: ./
+        uses: ryosms/pixela-webhook-action@v1.0.0
         id: increment-pixela
         with:
           username: ${{ secrets.PIXELA_USERNAME }}
