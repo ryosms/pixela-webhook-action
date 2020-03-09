@@ -1,0 +1,16 @@
+---
+name: 'pixela-webhook-action'
+description: 'GitHub Actions to invoke Pixela webhook'
+inputs:
+  username:
+    description: 'the username that is owner of Pixela webhook'
+    required: true
+  token:
+    description: 'the token for pixela user'
+    required: true
+  webhook_hash:
+    description: 'the hash of webhook to invoke'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
