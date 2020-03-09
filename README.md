@@ -29,7 +29,7 @@ Instead, use secrets. `Settings` -> `Secrets` in your repository.
 ## Usage
 
 ```yaml
-uses: ryosms/invoke-pixela-webhook@v1
+uses: ryosms/pixela-webhook-action@v1.0.0
 id: increment-pixela
 with:
   username: ${{ secrets.PIXELA_USERNAME }}
