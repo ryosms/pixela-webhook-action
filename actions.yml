@@ -1,4 +1,3 @@
----
 name: 'pixela-webhook-action'
 description: 'GitHub Actions to invoke Pixela webhook'
 inputs:
