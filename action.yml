@@ -1,5 +1,9 @@
 name: 'pixela-webhook-action'
 description: 'GitHub Actions to invoke Pixela webhook'
+author: 'ryosms'
+branding:
+  color: green
+  icon: activity
 inputs:
   username:
     description: 'the username that is owner of Pixela webhook'
